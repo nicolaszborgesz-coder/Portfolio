@@ -1,0 +1,541 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Nicolas Cardoso Borgesz, desenvolvedor júnior em formação. Projetos em Python, Java, HTML, CSS, JavaScript e automação.">
+  <meta name="theme-color" content="#080e1b">
+
+  <link rel="icon" href="nb.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Nicolas Borgesz | Desenvolvedor Júnior</title>
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="brand" href="#inicio">NB<span>.</span></a>
+
+      <div class="nav-links">
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#certificacoes">Certificações</a>
+      </div>
+
+      <a class="nav-contact" href="mailto:nicolaszborgesz@gmail.com">
+        Vamos conversar <span aria-hidden="true">↗</span>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- APRESENTAÇÃO -->
+    <section class="hero container" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">
+          <span class="status-dot"></span>
+          EM BUSCA DE OPORTUNIDADES
+        </p>
+
+        <h1>
+          Olá, eu sou Nicolas<br>
+          <span id="typing" class="typing"></span>
+        </h1>
+
+        <p class="hero-description">
+          Sou desenvolvedor júnior em formação e gosto de transformar
+          problemas em soluções práticas usando tecnologia, programação
+          e automação de processos.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projetos">
+            Explorar projetos <span>↓</span>
+          </a>
+
+          <a class="button button-secondary" href="mailto:nicolaszborgesz@gmail.com">
+            Entrar em contato <span>↗</span>
+          </a>
+        </div>
+
+        <div class="hero-tech">
+          <span>TECNOLOGIAS</span>
+          <span class="tech-pill">HTML & CSS</span>
+          <span class="tech-pill">JavaScript</span>
+          <span class="tech-pill">Python</span>
+          <span class="tech-pill">Java</span>
+        </div>
+      </div>
+
+      <div class="hero-photo-wrap">
+        <div class="photo-glow"></div>
+
+        <img
+          class="profile-photo"
+          src="Untitled-1.png"
+          alt="Foto de Nicolas Borgesz"
+        >
+
+        <div class="photo-caption">
+          <span class="caption-mark">✳</span>
+          <span>Aprendendo. Construindo. Evoluindo.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="about-section section container" id="sobre">
+      <div class="section-heading">
+        <p class="eyebrow">UM POUCO SOBRE MIM</p>
+        <h2>Desenvolvimento com <span>propósito.</span></h2>
+      </div>
+
+      <div class="about-content">
+        <p>
+          Sou um desenvolvedor júnior em formação, com conhecimentos em
+          HTML, CSS, JavaScript, Python e fundamentos de Java. Tenho
+          desenvolvido projetos próprios para praticar lógica de
+          programação, criação de interfaces e automação de tarefas.
+        </p>
+
+        <p>
+          Minha trajetória profissional também inclui experiências nas
+          áreas de logística, atendimento e indústria. Essas experiências
+          contribuíram para desenvolver organização, responsabilidade e
+          capacidade de resolver problemas.
+        </p>
+
+        <p>
+          Meu objetivo é conquistar minha primeira oportunidade profissional
+          na área de tecnologia, continuar aprendendo e contribuir com
+          soluções úteis para pessoas e empresas.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section class="section container" id="projetos">
+      <div class="section-heading section-heading-row">
+        <div>
+          <p class="eyebrow">MEU TRABALHO</p>
+          <h2>Projetos em <span>destaque.</span></h2>
+        </div>
+
+        <a
+          class="text-link"
+          href="https://github.com/nicolaszborgesz-coder"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ver perfil no GitHub ↗
+        </a>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- MERCON -->
+        <article class="project-card project-featured">
+          <div class="project-visual mercon-visual">
+            <span class="visual-label">PYTHON · AUTOMAÇÃO</span>
+
+            <div class="dashboard-preview">
+              <div class="dash-top">
+                <i></i><i></i><i></i>
+                <span>MERCON / CONCILIAÇÃO</span>
+              </div>
+
+              <div class="dash-stats">
+                <b>Conciliação</b>
+                <b>Resumo mensal</b>
+              </div>
+
+              <div class="dash-row">
+                <span>Documento XML</span>
+                <strong class="ok">CONCILIADO</strong>
+              </div>
+
+              <div class="dash-row">
+                <span>Extrato bancário</span>
+                <strong class="pending">PENDENTE</strong>
+              </div>
+
+              <div class="dash-row">
+                <span>Conferência</span>
+                <strong class="error">DIVERGÊNCIA</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-info">
+            <div class="project-title-line">
+              <h3>MERCON — Conciliação Contábil</h3>
+              <span class="project-number">01</span>
+            </div>
+
+            <p>
+              Projeto de automação em Python para comparar dados de notas
+              fiscais XML com extratos bancários e organizar os resultados
+              em planilhas Excel.
+            </p>
+
+            <div class="tag-list">
+              <span>Python</span>
+              <span>XML</span>
+              <span>Excel</span>
+              <span>OpenPyXL</span>
+            </div>
+
+            <a
+              class="project-link"
+              href="https://github.com/nicolaszborgesz-coder/mercon-contabilidade"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver repositório <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- mercon_portal_contabil -->
+        <article class="project-card">
+          <a
+            class="project-image"
+            href="https://github.com/nicolaszborgesz-coder/mercon_portal_contabil"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Abrir MERCON — Portal Contabil"
+          >
+            <img
+              src="login do cliente.jpeg"
+              alt="Captura de tela do MERCON — Portal Contabil"
+              loading="lazy"
+            >
+          </a>
+
+          <div class="project-info">
+            <div class="project-title-line">
+              <h3>MERCON — Portal Contabil</h3>
+              <span class="project-number">02</span>
+            </div>
+
+            <p>
+              Sistema web para escritórios contábeis desenvolvido em Flask e SQLite. Permite login de usuário, cadastro e gestão de clientes, painel administrativo e controle de status. Projeto para portfólio e aprendizado de banco de dados SQL.
+            </p>
+
+            <div class="tag-list">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Python</span>
+            </div>
+
+            <a
+              class="project-link"
+              href="https://github.com/nicolaszborgesz-coder/mercon_portal_contabil"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+             Ver repositório <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- controle-avanco-fornos-industriais -->
+        <article class="project-card">
+          <a
+            class="project-image"
+            href="https://github.com/nicolaszborgesz-coder/controle-avanco-fornos-industriais/tree/main"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Abrir Controle Sobre o Avanço de Fornos Industriais"
+          >
+            <img
+              src="paneil-de-controle-1.jpeg"
+              alt="Captura de tela do Controle Sobre o Avanço de Fornos Industriais"
+              loading="lazy"
+            >
+             Ver repositório <span>↗</span>
+          </a>
+
+          <div class="project-info">
+            <div class="project-title-line">
+              <h3>Controle Sobre o Avanço de Fornos Industriais</h3>
+              <span class="project-number">03</span>
+            </div>
+
+            <p>
+             Controle de avanço físico industrial com Python, Excel e dashboard web. Planejamento, acompanhamento e análise de desempenho.
+            </p>
+
+            <div class="tag-list">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Python</span>
+            </div>
+
+            <a
+              class="project-link"
+              href="https://github.com/nicolaszborgesz-coder/controle-avanco-fornos-industriais/tree/main"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+             Ver repositório <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- pixel-do-saber-gestoes -->
+        <article class="project-card">
+          <a
+            class="project-image"
+            href="https://github.com/nicolaszborgesz-coder/pixel-do-saber-gestoes"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Abrir Pixel do Saber | Gestões"
+          >
+            <img
+              src="dashboard.jpeg"
+              alt="Captura de tela do Abrir Pixel do Saber | Gestões"
+              loading="lazy"
+            >
+               Ver repositório <span>↗</span>
+          </a>
+
+          <div class="project-info">
+            <div class="project-title-line">
+              <h3>Pixel do Saber | Gestões</h3>
+              <span class="project-number">04</span>
+            </div>
+
+            <p>
+            Sistema de Gestão Empresarial com Python, Tkinter e SQLite — Dashboard, Clientes, Fornecedores, Funcionários, Produtos, Matérias-primas, Pedidos e Importação/Exportação CSV.
+            </p>
+
+            <div class="tag-list">
+              <span>Python</span>
+              <span>Tkinter</span>
+              <span>SQLite</span>
+              <span>Hashlib</span>
+              <span>CVS</span>
+            </div>
+
+            <a
+              class="project-link"
+              href="https://nicolaszborgesz-coder.github.io/calculadora-web/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Visualizar projeto <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section class="skills-section section" id="habilidades">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">FERRAMENTAS E TECNOLOGIAS</p>
+          <h2>Habilidades em <span>desenvolvimento.</span></h2>
+          <p class="section-subtitle">
+            Tecnologias que venho estudando e aplicando nos meus projetos.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-item">
+            <span class="skill-icon">5</span>
+            <div>
+              <h3>HTML5</h3>
+              <p>Estruturação de páginas web</p>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <span class="skill-icon">3</span>
+            <div>
+              <h3>CSS3</h3>
+              <p>Estilização e layouts responsivos</p>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <span class="skill-icon">JS</span>
+            <div>
+              <h3>JavaScript</h3>
+              <p>Interatividade e lógica</p>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <span class="skill-icon">Py</span>
+            <div>
+              <h3>Python</h3>
+              <p>Fundamentos e automação</p>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <span class="skill-icon">J</span>
+            <div>
+              <h3>Java</h3>
+              <p>Fundamentos da linguagem</p>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <span class="skill-icon">Git</span>
+            <div>
+              <h3>Git & GitHub</h3>
+              <p>Versionamento e publicação</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICAÇÕES -->
+    <section class="section container" id="certificacoes">
+      <div class="section-heading">
+        <p class="eyebrow">FORMAÇÃO CONTÍNUA</p>
+        <h2>Certificações e <span>aprendizado.</span></h2>
+      </div>
+
+      <div class="cert-grid">
+
+        <article class="cert-card">
+          <span class="cert-icon">01</span>
+          <div>
+            <h3>Bibliotecas Gráficas no Contexto dos Jogos Digitais</h3>
+            <p>Instituto Federal do Rio Grande do Sul · 20h</p>
+            <a href="certificados/certificado-jogos-digitais.pdf" target="_blank" rel="noopener noreferrer">Ver certificado ↗</a>
+          </div>
+        </article>
+
+        <article class="cert-card">
+          <span class="cert-icon">02</span>
+          <div>
+            <h3>Crie um Site Simples usando HTML, CSS e JavaScript</h3>
+            <p>Fundação Bradesco · Escola Virtual · 2h</p>
+            <a href="certificados/certificado-html-css-javascript.pdf" target="_blank" rel="noopener noreferrer">Ver certificado ↗</a>
+          </div>
+        </article>
+
+        <article class="cert-card">
+          <span class="cert-icon">03</span>
+          <div>
+            <h3>Python — Básico</h3>
+            <p>Fundação Bradesco · Escola Virtual · 18h</p>
+            <a href="certificados/certificado-python-basico.pdf" target="_blank" rel="noopener noreferrer">Ver certificado ↗</a>
+          </div>
+        </article>
+
+        <article class="cert-card">
+          <span class="cert-icon">04</span>
+          <div>
+            <h3>Programação Básica com Java I</h3>
+            <p>Instituto Federal do Rio Grande do Sul · 40h</p>
+            <a href="certificados/certificado-java-I.pdf" target="_blank" rel="noopener noreferrer">Ver certificado ↗</a>
+          </div>
+        </article>
+
+        <article class="cert-card">
+          <span class="cert-icon">05</span>
+          <div>
+            <h3>Programação Básica com Java II</h3>
+            <p>Instituto Federal do Rio Grande do Sul</p>
+            <a href="certificados/certificado-java-II.pdf" target="_blank" rel="noopener noreferrer">Ver certificado ↗</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="contact-section container" id="contato">
+      <p class="eyebrow">TEM UMA OPORTUNIDADE?</p>
+
+      <h2>Vamos construir algo <span>juntos?</span></h2>
+
+      <p>
+        Estou em busca da minha primeira oportunidade na área de tecnologia.
+        Será um prazer conversar sobre projetos e oportunidades.
+      </p>
+
+      <a class="button button-primary" href="mailto:nicolaszborgesz@gmail.com">
+        Fale comigo por e-mail ↗
+      </a>
+
+      <div class="contact-links">
+        <a href="https://github.com/nicolaszborgesz-coder" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <a href="mailto:nicolaszborgesz@gmail.com">E-mail ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2026 Nicolas Borgesz</span>
+      <span>Desenvolvido com HTML, CSS e JavaScript.</span>
+      <a href="https://github.com/nicolaszborgesz-coder" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </div>
+  </footer>
+
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const elemento = document.getElementById("typing");
+
+    const frases = [
+        "Desenvolvedor Júnior",
+        "Python e Automação",
+        "Desenvolvimento Web",
+        "HTML, CSS e JavaScript"
+    ];
+
+    let frase = 0;
+    let letra = 0;
+    let apagando = false;
+
+    function digitar() {
+
+        const textoAtual = frases[frase];
+
+        if (!apagando) {
+            letra++;
+        } else {
+            letra--;
+        }
+
+        elemento.textContent = textoAtual.substring(0, letra);
+
+        let velocidade = apagando ? 50 : 100;
+
+        if (letra === textoAtual.length && !apagando) {
+            apagando = true;
+            velocidade = 1500;
+        }
+
+        if (letra === 0 && apagando) {
+            apagando = false;
+            frase = (frase + 1) % frases.length;
+            velocidade = 500;
+        }
+
+        setTimeout(digitar, velocidade);
+    }
+
+    digitar();
+
+});
+</script>
+</body>
+</html>
